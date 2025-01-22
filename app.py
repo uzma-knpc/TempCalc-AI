@@ -144,9 +144,6 @@ agent = initialize_agent(
 #response=agent.invoke({"input":"mean and standard deviation of 1+5+6+8 "})
 #print(f"\n{response}\n")
 
-
-
-
 st.set_page_config(page_title="AI Powerd TempCalc", layout="centered")
 
 # Custom CSS for styling
@@ -189,3 +186,6 @@ if st.button("submit"):
     response=agent.invoke(user_input)
     st.write(response)
     
+
+
+
