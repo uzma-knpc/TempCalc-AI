@@ -1,0 +1,9 @@
+{
+  "venv/Lib/site-packages/pip/_vendor/colorama/tests/ansitowin32_test.py::AnsiToWin32Test::test_native_windows_ansi": true,
+  "venv/Lib/site-packages/pip/_vendor/colorama/tests/ansitowin32_test.py::AnsiToWin32Test::test_osc_codes": true,
+  "venv/Lib/site-packages/pip/_vendor/colorama/tests/initialise_test.py::JustFixWindowsConsoleTest::testJustFixWindowsConsole": true,
+  "venv/Lib/site-packages/pip/_vendor/colorama/tests/winterm_test.py::WinTermTest::testInit": true,
+  "venv/Lib/site-packages/pip/_vendor/colorama/tests/winterm_test.py::WinTermTest::testResetAll": true,
+  "venv/Lib/site-packages/pip/_vendor/colorama/tests/winterm_test.py::WinTermTest::testSetConsole": true,
+  "venv/Lib/site-packages/pip/_vendor/colorama/tests/winterm_test.py::WinTermTest::testSetConsoleOnStderr": true
+}
