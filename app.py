@@ -1,5 +1,4 @@
 #gemini key set
-from dotenv import load_dotenv
 import os
 import streamlit as st
 #from google.colab import userdata
@@ -9,7 +8,7 @@ import datetime
 from langchain_core.tools import tool
 import math
 import statistics
-
+from dotenv import load_dotenv
 
 
 load_dotenv()
