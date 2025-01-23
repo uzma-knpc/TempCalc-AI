@@ -14,7 +14,7 @@ import statistics
 
 load_dotenv()
 
-GOOGLE_API_KEY=os.environ.get('GOOGLE_API_KEY')
+GOOGLE_API_KEY=os.getenv('GOOGLE_API_KEY')
 
 
 
@@ -144,9 +144,8 @@ agent = initialize_agent(
     llm=llm,
     agent=AgentType.STRUCTURED_CHAT_ZERO_SHOT_REACT_DESCRIPTION)
 
-#response=agent.invoke({"input":"mean and standard deviation of 1+5+6+8 "})
-#print(f"\n{response}\n")
-
+response=agent.invoke({"input":"mean and standard deviation of 1,5,6,8 "})
+print(f"\n{response}\n")
 
 
 
@@ -191,4 +190,3 @@ st.markdown('<p class="right-text">Developed by Uzma Ilyas</p>',unsafe_allow_htm
 if st.button("submit"):
     response=agent.invoke(user_input)
     st.write(response)
-    
