@@ -2,6 +2,7 @@
 import os
 import streamlit as st
 #from google.colab import userdata
+import langchain_google_genai
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents import initialize_agent, AgentType
 import datetime
